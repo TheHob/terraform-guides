@@ -176,3 +176,8 @@ output "nomad_tg_http_4646_arn" {
 output "nomad_lb_dns" {
   value = "${module.hashistack_aws.nomad_lb_dns}"
 }
+
+output "nomad_lb_dns1" {
+  value = "${module.hashistack_aws.nomad_lb_dns}"
+}
+
